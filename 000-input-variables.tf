@@ -9,7 +9,7 @@ variable "network" {
     subnet_name=string,
     cidr=string
     })
-  description = "An object describing the network to create. See examples/basic.tf for an example configuration"
+  description = "An object describing the network to create."
 }
 
 variable "dns_ip" {
@@ -18,5 +18,5 @@ variable "dns_ip" {
     "1.1.1.1",
     "1.0.0.1"
   ]
-  description = "IP Address of the DNS to refer to. Default is set to 1.1.1.1 and 1.0.0.1."
+  description = "A list of IP Addresses of the DNS to refer to. Default is set to 1.1.1.1 and 1.0.0.1."
 }
